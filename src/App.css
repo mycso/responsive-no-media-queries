@@ -1,0 +1,44 @@
+article {
+  background-color: #aaa;
+  width: 100vw;
+  height:100%;
+  display: flex;
+  flex-wrap: wrap; 
+  max-height: 500px;
+}
+
+article div {
+  flex: 1;
+  color: #333;
+  height: auto;
+  max-height: 460px;
+  min-width: 300px;
+  background-color: #efefef;
+  padding: 10px;
+}
+
+article div:last-child {
+  padding: 10px;
+  background: url('./img/switzerland-zermatt-mountains-snow.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 60vw;
+}
+
+article div img{
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  font-size:calc(18px + 10vw);
+}
+
+h4 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0;
+}
